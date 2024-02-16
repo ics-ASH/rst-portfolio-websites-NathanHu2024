@@ -1,32 +1,71 @@
 <html>
   <head>
-    <title>Welcome to Nathan's Webpage</title>
-    <p style="color:rgb(255, 255, 255); font-size: 40px;border-width:0px; border-style:solid; border-color:#000000">Nathan's Coding Portfolio - 2024</p>
+    <title>Nathan's Coding Webpage</title> 
+    
+    <p style="color:rgb(0, 0, 0); font-size: 40px;border-width:1px; border-style:solid; border-color:#000000">Welcome to Nathan's Webpage</p>
     <link rel="icon" type="image/x-icon" href="https://www.apache.org/favicons/apple-touch-icon.png">
+    <body>  <div class="dropdown">
+      <h3 class="dropdown-title">Weekly journal</h3>
+      <div class="dropdown-content">
+          <a href="weekly_journal.html">Feburary</a>
+          <a href="#">March</a>
+          <a href="#">April</a>
+          
+      </div>
+    </div>
+    </body>
 </html> 
 <br>
-<a href="https://www.paypal.ca">Buy Me A Coffee!</a> <a href="weekly_journal.html">Weekly Journal</a>
+<a href="https://www.paypal.ca">Buy Me A Coffee!</a> 
+
+<a href="weekly_journal.html"target="_blank">Weekly Journal</a>
+<a href="bookmarks.html">Bookmarks</a>
+<a href="notes.html">Notes</a>
 <hr>
     <style>
       body {
-  background-image: url('https://img.freepik.com/free-vector/abstract-blue-circle-black-background-technology_1142-12714.jpg');
+  background-image: url('https://img.freepik.com/premium-photo/grey-abstract-background_427757-34.jpg');
+}
+.right-align {
+            float: right;
 }
 table, th, td {
   border:1px solid black;
 }
-p {
-      color: rgb(53, 55, 6);
-      font-size: 40px;
-      display: inline-block;
-      border-right: 2px solid #652222; 
-      padding-right: 10px; 
-      margin-right: 10px; 
-    }
-      </style>
-</body>
-<hr>
+.dropdown {
+            position: relative;
+            display: inline-block;
+        }
 
-<br>
+        .dropdown-title {
+            cursor: pointer;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            display: block;
+            text-decoration: none;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</body>
+
 
 
 </body>
